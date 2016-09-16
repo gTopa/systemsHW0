@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <iostream>
+
+int main(){
+
+}
+
+int problemOne(){
+  int sum = 0;
+  int ctr = 3;
+  for(ctr;ctr<=1000;ctr++){
+    if(!(ctr%3)||!(ctr%5)){
+      sum+=ctr;
+    }
+  }
+}
